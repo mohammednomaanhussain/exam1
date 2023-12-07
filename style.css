@@ -1,0 +1,89 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+nav{
+    height: 10vh;
+    background-color:rgb(114, 114, 212);
+   padding: 0px 200px;
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+}
+.navitems-left{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+.navitems-left div h1{
+    color: #fff;
+    font-size: xx-large;
+}
+.navitems-left .input-box{
+    background-color: #fff;
+    /* padding: 10px 30px; */
+    height: 40px;
+    width: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 2px ;
+    padding-left: 20px;
+    padding-right: 10px;
+}
+.navitems-left .input-box input{
+    height: 40px;
+    width: 300px;
+border: none;
+outline: none;
+font-size: large;
+}
+.navitems-left .input-box i{
+    font-size: x-large;
+    font-weight: bold;
+}
+.navitems-right{
+    display: flex;
+    align-items: center;
+    gap: 45px;
+    font-size: x-large;
+}
+.navitems-right div a{
+    text-decoration: none;
+    color: #fff;
+}
+.catg-container{
+    height: 10vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    font-size: large;
+    font-weight: 500;
+    background-color: #fff;
+}
+.main-container{
+    margin: 10px 100px 10px 100px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    justify-content: center;
+}
+.single-product{
+height: 350px;
+width: 300px;
+border: 2px solid black;
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+gap: 5px;
+
+}
+.single-product img{
+    height: 250px;
+    width: 250px;
+}
+.single-product .price{
+    font-size: large;
+}
